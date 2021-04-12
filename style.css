@@ -1,12 +1,69 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 1.125rem;
 }
 
 /* Add styles here! */
+:root {
+  --clr-primary: hsl(160deg, 100%, 30%);
+  --clr-secondary-lighter: hsl(45deg, 100%, 50%)
+  --clr-secondary-darker: hsl(45deg, 100%, 40%);
+  --clr-gray-black: hsl(0deg, 0%, 0%);
+  --clr-gray-very-dark: hsl(0deg, 0%, 10%);
+  --clr-gray-dark: hsl(0deg, 0%, 30%);
+  --clr-gray-medium: hsl(0deg, 0%, 40%);
+  --clr-gray-light: hsl(0deg, 0%, 60%);
+  --clr-gray-white: hsl(0deg, 0%, 100%);
+}
+
+.intro-chunk {
+  width: 320px;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+
+.intro-chunk .title {
+  margin-bottom: 2rem;
+}
+
+.intro-chunk strong {
+  color: var(--clr-primary);
+}
+
+main {
+  background-color: var(--clr-gray-light);
+  border-top: 8px solid var(--clr-gray-medium);
+  padding: 128px 0;
+}
+
+.card {
+  background-color: #fff;
+  border-bottom: 8px solid var(--clr-gray-medium);
+  max-width: 655px;
+  padding: 1rem;
+  /* margin-top: 2rem; */
+  /* margin-left: 10%; */
+  margin: 0 auto;
+}
+
+.indented-heading {
+  /* margin-top: 2rem; */
+  margin-left: -2.5rem;
+  padding: 1rem 2rem;
+  margin-top: -.5rem;
+}
+
+.indented-heading {
+  background-color: #ffc001;
+  width: fit-content;
+  border-bottom: .5rem solid #cc9900;
+}
+
+
